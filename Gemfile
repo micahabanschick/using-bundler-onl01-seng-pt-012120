@@ -1,5 +1,8 @@
 source "https://rubygems.org"
-gem "rspec", group: :test 
+
+group :test do
+gem "rspec"
+end
  
 group :development do
 gem "pry"
